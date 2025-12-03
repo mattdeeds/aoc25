@@ -66,7 +66,6 @@ fn main() {
     });
 }
 
-// time_it! macro for measuring execution time of a block of code
 #[macro_export]
 macro_rules! time_it {
     ($code:block) => {{
